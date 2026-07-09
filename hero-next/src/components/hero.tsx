@@ -10,7 +10,7 @@ export default function Hero() {
           </p>
 
           <div className="mb-6 flex items-center gap-5">
-            <h1 className="mb-6 text-5xl font-extrabold tracking-tight text-white [text-shadow:0_2px_8px_rgba(0,0,0,0.8),0_0_22px_rgba(34,211,238,0.45)]">
+            <h1 className="hero-title text-5xl font-extrabold tracking-tight leading-none md:text-7xl">
               TOXIC 101
             </h1>
 

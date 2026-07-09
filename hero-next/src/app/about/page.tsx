@@ -6,7 +6,7 @@ export default function AboutPage() {
           About the course
         </p>
 
-        <h1 className="mb-6 text-5xl font-extrabold tracking-tight text-white [text-shadow:0_2px_8px_rgba(0,0,0,0.8),0_0_22px_rgba(34,211,238,0.45)]">
+        <h1 className="hero-title mb-6 text-5xl font-extrabold tracking-tight">
           About TOXIC 101
         </h1>
 
