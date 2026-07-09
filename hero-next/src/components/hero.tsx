@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function Hero() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white">
       <section className="relative mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center gap-12 px-6 py-20 md:flex-row">
