@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Gaslighting Masterclass",
+    "description": "Learn how to redirect blame with confidence, elegance and absolutely no accountability.",
+    "price": "$399",
+    "level": "Beginner",
+    "popular": true
+  },
+  {
+    "title": "Corporate Toxicity",
+    "description": "Master the art of buzzwords, power moves and pretending every meeting could have been an email.",
+    "price": "$599",
+    "level": "Intermediate",
+    "popular": false
+  },
+  {
+    "title": "Luxury Deal Closing",
+    "description": "Sign contracts, shake hands and look expensive while doing absolutely the most.",
+    "price": "$799",
+    "level": "Advanced",
+    "popular": true
+  }
+]

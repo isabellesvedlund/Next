@@ -11,8 +11,9 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-lg leading-8 text-slate-300">
-          Welcome to TOXIC 101. This fictional course explores the humorous side
-          of ambition, success and confidence through satire.
+          TOXIC 101 is a fictional premium course created to practice Next.js,
+          React components, routing, props, conditional rendering and rendering
+          data from JSON.
         </p>
       </section>
     </main>
