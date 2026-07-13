@@ -1,4 +1,7 @@
+import Link from "next/link";
+
 interface CourseCardProps {
+  id: number;
   title: string;
   description: string;
   price: string;
@@ -7,6 +10,7 @@ interface CourseCardProps {
 }
 
 export default function CourseCard({
+  id,
   title,
   description,
   price,
@@ -29,6 +33,13 @@ export default function CourseCard({
         <span className="text-sm font-semibold text-cyan-400">{level}</span>
         <span className="text-xl font-extrabold text-white">{price}</span>
       </div>
+
+      <Link
+        href={`/courses/${id}`}
+        className="mt-6 block rounded-full border border-cyan-400 px-5 py-3 text-center font-semibold text-cyan-400 transition hover:bg-cyan-400 hover:text-slate-950"
+      >
+        View course
+      </Link>
     </article>
   );
 }
